@@ -1,6 +1,6 @@
-# enormousFM
+# vane
 
-A Raspberry Pi and Arduino based framework for networked multichannel sound, light, and motion.  
+Built from [enormousFM](https://github.com/zealtv/enormousFM): a Raspberry Pi and Arduino based framework for networked multichannel sound, light, and motion.  
 
 ![enormous node diagram](enormous-node.svg)
 
@@ -97,32 +97,14 @@ python3 -m venv ./venv
 cd ~
 
 # clone this repo (or your fork)
-git clone https://github.com/zealtv/enormousFM.git
+git clone https://github.com/zealtv/vane.git
 
-# !copy samples
+# !copy samples if required
 
 # run update script 
-sudo ~/enormousFM/scripts/update.sh
+sudo ~/vane/scripts/update.sh
 
 # pi should copy rc.local and reboot with jack, puredata, and helper.py running
 
 ```
 
-# Arduino OSC schema
-## from arduino
-/d int  
-IR sensor distance in centimeters
-
-
-## to arduino
-/leds float[10]  
-brightness of LEDS 0.0 - 1.0
-
-/ledsat float  
-saturation of leds 0.0 - 1.0
-
-/ledhue float  
-hue of leds 0.0 - 1.0
-
-/needle float  
-needle speed
