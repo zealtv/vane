@@ -4,11 +4,7 @@ Built from [enormousFM](https://github.com/zealtv/enormousFM): a Raspberry Pi an
 
 ## puredata 0.54 vanilla 
 
-Runs logic, audio duties, OSC.  Communicates to arduino via pd-comport.
-Leverages the [bop](https://github.com/zealtv/bop) library. 
-
-### Requires
-- pd-comport
+Runs logic, audio duties, OSC. Leverages the [bop](https://github.com/zealtv/bop) library. 
 
 
 ## python3
@@ -57,7 +53,7 @@ cd ./pure-data/
 make
 sudo make install
 
-# install pd externals
+# install pd externals if required
 sudo apt-get install pd-comport
 
 # add externals to local extra folder
