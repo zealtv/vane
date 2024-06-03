@@ -1,9 +1,9 @@
 casio stop;
 casio gain 0.7;
-casio release 1.4;
+casio release 0.4;
 casio sustain 0;
-casio decay 0.6;
+casio decay 2;
 casio attack 0.01;
-casio wave-2 8;
-casio wave-1 1;
-casio filter loop 0.3 5000 0.6 5000;
+casio wave-2 2;
+casio wave-1 4;
+casio filter loop 0.1 5000 0.4 5000 0.1 5000 0.6 7000;
