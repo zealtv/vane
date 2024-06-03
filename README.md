@@ -2,9 +2,6 @@
 
 Built from [enormousFM](https://github.com/zealtv/enormousFM): a Raspberry Pi and Arduino based framework for networked multichannel sound, light, and motion.  
 
-![enormous node diagram](enormous-node.svg)
-
-
 ## puredata 0.54 vanilla 
 
 Runs logic, audio duties, OSC.  Communicates to arduino via pd-comport.
@@ -20,16 +17,6 @@ Provides admin services (updating, rebooting, shutdown).
 
 ### Requires
 - [pyOSC3](https://pypi.org/project/pyOSC3/)
-
-## Arduino
-
-Reads distance sensor and controls lights and stepper motor.  Communicates with PD via SLIP encoded OSC over USB serial.
-
-### Requires:
-- https://github.com/thomasfredericks/MicroOsc
-- https://github.com/qub1750ul/Arduino_SharpIR
-- http://www.airspayce.com/mikem/arduino/AccelStepper/
-- https://github.com/FastLED/FastLED
 
 
 # Installation and Setup
