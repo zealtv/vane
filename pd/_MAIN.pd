@@ -1,4 +1,4 @@
-#N canvas 488 317 714 531 12;
+#N canvas 670 317 714 531 12;
 #X declare -path ./bop;
 #X obj 198 342 dac~;
 #X msg 19 265 \; pd dsp 1;
